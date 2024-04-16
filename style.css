@@ -1,5 +1,6 @@
-list li{
-    text-decoration-style: none;
+ul li{
+    list-style-type: none;
+
 }
 button{
     

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>E-commerce website</title>
+        <title>Title</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -16,30 +16,47 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
             <!-- place navbar here -->
-            <nav class="webname"><h1 ligen>Super Cars</h1></nav>
         </header>
         <main>
-            <div class="container">
-                <img
-                    src="/most-unreliable-cars-1024x555.jpg"
-                    class="img-fluid rounded-top"
-                    alt=""
-                />
-                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat voluptatum, earum reprehenderit voluptatem debitis sapiente nisi autem in repellat quisquam ipsam quas! Repellendus, enim quis distinctio beatae praesentium incidunt delectus.</p>
-                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam nostrum minima culpa unde expedita illum adipisci incidunt veritatis ab non, laudantium sit dignissimos reprehenderit quia veniam ipsum, facere eligendi?</p>
-                <div class="list">
-                    <ul class="listitme">
-                        <button><li><a href="/user-reg2.html">SignIn</a></li></button>
-                        <button> <li><a href="/user-reg2.html">SignUp</a></li></button>
-                    </ul>
-                
+            <form action="">
+                <div>
+                    <label for="user">User Name:</label>
+                    <input type="text" id="user" placeholder="alfi ali">
                 </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="alfi@gmail.com">
+                </div>
+                <br>
+                <div>
+                    <label for="paas1">New Password:</label>
+                    <input type="password" id="pass1" required>
+                </div>
+                <div>
+                    <label for="paas2"> Password confirmation:</label>
+                    <input type="password" id="pass2" required>
+                </div>
+                <div>
+                    <input type="reset">
+                </div>
+                <div><input type="submit"></div>
+            </form>
+            <div>
+                <h2>How did you here about us</h2>
+                <label for="r1">Friend</label>
+                <input type="radio" id="r1">
+                <br>
+                <label for="r2">Family</label>
+                <input type="radio" id="r2">
+                <br>
+                <label for="r3">Social media</label>
+                <input type="radio" id="r3">
             </div>
         </main>
         <footer>
