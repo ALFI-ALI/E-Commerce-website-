@@ -34,3 +34,7 @@ input{
     font-size: 15px;
     margin-left: 20px;
 }
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
