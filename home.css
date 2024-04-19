@@ -39,8 +39,8 @@ h5{
     padding-top: 20px;
 }
 .carousel-item #black {
-    background-color: black;
-    color: rgb(15, 201, 136);
+    background-color:black;
+    color:#fff;
 }
 .fa {
     padding: 20px;
