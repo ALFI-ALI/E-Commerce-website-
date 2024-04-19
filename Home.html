@@ -16,23 +16,35 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="home.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
         <header>
-            <!-- place navbar here -->
-            <nav class="webname"><h1 ligen>Super Cars</h1></nav>
-        </header>
-        <main>
-            <div class="container">
-                <img
-                    src="/most-unreliable-cars-1024x555.jpg"
-                    class="img-fluid rounded-top"
-                    alt=""
-                />
-                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat voluptatum, earum reprehenderit voluptatem debitis sapiente nisi autem in repellat quisquam ipsam quas! Repellendus, enim quis distinctio beatae praesentium incidunt delectus.</p>
-                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam nostrum minima culpa unde expedita illum adipisci incidunt veritatis ab non, laudantium sit dignissimos reprehenderit quia veniam ipsum, facere eligendi?</p>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Alfi super cars</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="/porducts.html">Products</a>
+                      <a class="nav-link" href="/user-reg.html">Signup</a>
+                      <a class="nav-link" href="/login.html">Signin</a>
+                      <a class="nav-link" href="/checkout.html">Checkout</a>
+                     
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            <!-- place navbar here 
+            <nav class="navbar sticky-top navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><h1 ligen>Super Cars</h1></a>
+                </div>
                 <div class="list">
                     <ul class="listitme">
                         <button><li><a href="/user-reg2.html">SignIn</a></li></button>
@@ -40,10 +52,66 @@
                     </ul>
                 
                 </div>
+              </nav>-->
+           <!-- <nav class="webname"></nav>-->
+        </header>
+        <main>
+            <div class="container">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/m(1).jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Our mission</h5>
+                          <p>Super Cars, led by the visionary Alfi Ali, stands as a beacon of excellence in the realm of used car sales. With Alfi's keen eye for quality and commitment to customer satisfaction, Super Cars offers a curated selection of pre-owned vehicles that surpass expectations.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/R (1).jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Our mission</h5>
+                          <p id="black">Our meticulous inspection process ensures that each car meets stringent standards of reliability and performance, providing peace of mind to discerning buyers. At Super Cars, Alfi's leadership drives a culture of trust, transparency, and integrity.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/OIP.jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Our mission</h5>
+                          <p>Choosing Super Cars means investing in more than just a vehicle; it's about investing in a seamless and trustworthy buying experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+               <!-- <img
+                    src="/most-unreliable-cars-1024x555.jpg"
+                    class="img-fluid rounded-top"
+                    alt="">
+                
+                <p class="mb-1">Super Cars, led by the visionary Alfi Ali, stands as a beacon of excellence in the realm of used car sales. With Alfi's keen eye for quality and commitment to customer satisfaction, Super Cars offers a curated selection of pre-owned vehicles that surpass expectations. Our meticulous inspection process ensures that each car meets stringent standards of reliability and performance, providing peace of mind to discerning buyers. At Super Cars, Alfi's leadership drives a culture of trust, transparency, and integrity, making us the premier destination for those seeking top-notch used cars.
+
+                    </p>
+                <p class="mb-2">Choosing Super Cars means investing in more than just a vehicle; it's about investing in a seamless and trustworthy buying experience. With Alfi Ali's leadership at the helm, our team is dedicated to providing personalized assistance and support, guiding customers through every step of the purchasing journey. From competitive pricing to flexible financing options, we prioritize customer satisfaction above all else. At Super Cars, Alfi's winning formula ensures that each customer receives not just a car, but a commitment to excellence that exceeds expectations..</p>-->
+               
             </div>
         </main>
         <footer>
             <!-- place footer here -->
+           <h6> &copy;Alfi ali 2024</h6> 
+           <a href="#" class="fa fa-facebook"></a>
+           <a href="#" class="fa fa-instagram"></a>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
