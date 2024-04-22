@@ -1,4 +1,69 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(27,27,27);
+}
 .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image:url(/2024-chevrolet.jpg);
+}
+.car-2{
+    background-image: url(/images/2024-porsche.jpg);
+}
+.car-3{
+    background-image: url(/images/2024-toyota.jpg);
+}
+.car-4{
+    background-image: url(/images/2025-bmw.jpg);
+}
+.car-5{
+    background-image: url(/images/porsch.jpg);
+}
+.car-6{
+    background-image: url(/images/2024-lotus-emira.jpg);
+}
+.card p{
+    padding: 10px;
+}
+.card a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+/*.container{
     margin-top: 100px;
 
 }
@@ -40,4 +105,4 @@ a{
 }
 body{
    background:  
-}
+}*/
